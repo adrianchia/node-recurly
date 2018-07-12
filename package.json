@@ -17,16 +17,18 @@
     "url": "https://github.com/adrianchia/node-recurly/issues"
   },
   "homepage": "https://github.com/adrianchia/node-recurly#readme",
-  "devDependencies": {
+  "dependencies": {
     "axios": "^0.18.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
     "axios-mock-adapter": "^1.15.0",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "eslint": "^5.1.0",
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
-    "nyc": "^12.0.2",
-    "xml2js": "^0.4.19"
+    "nyc": "^12.0.2"
   },
   "eslintConfig": {
     "parserOptions": {
