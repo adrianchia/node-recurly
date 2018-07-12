@@ -1,0 +1,31 @@
+<coupon href="https://your-subdomain.recurly.com/v2/coupons/special">
+  <redemptions href="https://your-subdomain.recurly.com/v2/coupons/special/redemptions"/>
+  <coupon_code>special</coupon_code>
+  <name>Special $2 off coupon</name>
+  <state>redeemable</state>
+  <description nil="nil"/>
+  <discount_type>dollars</discount_type>
+  <discount_in_cents>
+    <USD type="integer">200</USD>
+  </discount_in_cents>
+  <invoice_description nil="nil"/>
+  <redeem_by_date type="datetime">2019-12-31T00:00:00Z</redeem_by_date>
+  <single_use type="boolean">false</single_use>
+  <applies_for_months nil="nil"/>
+  <max_redemptions type="integer">200</max_redemptions>
+  <applies_to_all_plans type="boolean">true</applies_to_all_plans>
+  <created_at type="datetime">2018-03-19T16:57:47Z</created_at>
+  <updated_at type="datetime">2018-03-19T16:57:47Z</updated_at>
+  <deleted_at nil="nil"/>
+  <duration>temporal</duration>
+  <temporal_unit>day</temporal_unit>
+  <temporal_amount type="integer">28</temporal_amount>
+  <applies_to_non_plan_charges type="boolean">false</applies_to_non_plan_charges>
+  <redemption_resource>account</redemption_resource>
+  <max_redemptions_per_account type="integer">1</max_redemptions_per_account>
+  <coupon_type>single_code</coupon_type>
+  <id type="integer">2438657833562341574</id>
+  <plan_codes type="array">
+  </plan_codes>
+  <a name="redeem" href="https://your-subdomain.recurly.com/v2/coupons/special/redeem" method="post"/>
+</coupon>

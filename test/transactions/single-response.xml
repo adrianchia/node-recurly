@@ -1,0 +1,52 @@
+<transaction href="https://your-subdomain.recurly.com/v2/transactions/374adcf4d716c1afc7b0b64bb79d438d" type="credit_card">
+  <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+  <invoice href="https://your-subdomain.recurly.com/v2/invoices/1005"/>
+  <subscriptions href="https://your-subdomain.recurly.com/v2/transactions/374adcf4d716c1afc7b0b64bb79d438d/subscriptions"/>
+  <uuid>374adcf4d716c1afc7b0b64bb79d438d</uuid>
+  <action>purchase</action>
+  <amount_in_cents type="integer">109</amount_in_cents>
+  <tax_in_cents type="integer">9</tax_in_cents>
+  <currency>USD</currency>
+  <status>success</status>
+  <payment_method>credit_card</payment_method>
+  <reference>2216615</reference>
+  <source>transaction</source>
+  <recurring type="boolean">false</recurring>
+  <test type="boolean">true</test>
+  <voidable type="boolean">true</voidable>
+  <refundable type="boolean">true</refundable>
+  <ip_address>127.0.0.1</ip_address>
+  <cvv_result code="" nil="nil"/>
+  <avs_result code="D">Street address and postal code match.</avs_result>
+  <avs_result_street nil="nil"/>
+  <avs_result_postal nil="nil"/>
+  <created_at type="datetime">2016-07-11T22:26:35Z</created_at>
+  <updated_at type="datetime">2016-07-11T22:26:35Z</updated_at>
+  <details>
+    <account>
+      <account_code>1</account_code>
+      <first_name>Verena</first_name>
+      <last_name>Example</last_name>
+      <company>New Company Name</company>
+      <email>verena@example.com</email>
+      <billing_info type="credit_card">
+        <first_name>Verena</first_name>
+        <last_name>Example</last_name>
+        <address1>123 Main St.</address1>
+        <address2 nil="nil"/>
+        <city>San Francisco</city>
+        <state>CA</state>
+        <zip>94105</zip>
+        <country>US</country>
+        <phone nil="nil"/>
+        <vat_number nil="nil"/>
+        <card_type>Visa</card_type>
+        <year type="integer">2019</year>
+        <month type="integer">12</month>
+        <first_six>411111</first_six>
+        <last_four>1111</last_four>
+      </billing_info>
+    </account>
+  </details>
+  <a name="refund" href="https://your-subdomain.recurly.com/v2/transactions/374adcf4d716c1afc7b0b64bb79d438d" method="delete"/>
+</transaction>

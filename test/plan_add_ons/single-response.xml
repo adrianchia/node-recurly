@@ -1,0 +1,21 @@
+<add_on href="https://your-subdomain.recurly.com/v2/plans/gold/add_ons/video_streaming">
+  <plan href="https://your-subdomain.recurly.com/v2/plans/gold"/>
+  <measured_unit href="https://your-subdomain.recurly.com/v2/measured_units/12345678901234567890"/>
+  <add_on_code>video_streaming</add_on_code>
+  <name>Video Streaming</name>
+  <default_quantity type="integer">1</default_quantity>
+  <display_quantity_on_hosted_page type="boolean">false</display_quantity_on_hosted_page>
+  <tax_code nil="nil"/>
+  <unit_amount_in_cents>
+    <USD type="integer">50</USD>
+    <EUR type="integer">45</EUR>
+  </unit_amount_in_cents>
+  <accounting_code nil="nil"/>
+  <add_on_type>usage</add_on_type>
+  <optional type="boolean">true</optional>
+  <usage_type>price</usage_type>
+  <usage_percentage nil="nil"/>
+  <revenue_schedule_type>evenly</revenue_schedule_type>
+  <created_at type="datetime">2016-08-03T15:25:09Z</created_at>
+  <updated_at type="datetime">2016-08-03T15:25:09Z</updated_at>
+</add_on>

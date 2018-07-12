@@ -1,0 +1,13 @@
+<usage href="https://your-subdomain.recurly.com/v2/subscriptions/374ae5e848adcfd332fdd3469d89c888/add_ons/video_streaming/usage/450646065398417338">
+  <measured_unit href="https://your-subdomain.recurly.com/v2/measured_units/450622522661012652"/>
+  <amount type="integer">1</amount>
+  <merchant_tag>Order ID: 4939853977878713</merchant_tag>
+  <recording_timestamp type="date">2016-07-14T13:09:15+00:00</recording_timestamp>
+  <usage_timestamp type="date">2016-07-14T22:30:15+00:00</usage_timestamp>
+  <created_at type="date">2016-07-14T22:33:17+00:00</created_at>
+  <updated_at nil="nil"/>
+  <billed_at nil="nil"/>
+  <usage_type>price</usage_type>
+  <unit_amount_in_cents type="integer">45</unit_amount_in_cents>
+  <usage_percentage nil="nil"/>
+</usage>

@@ -1,0 +1,49 @@
+<transaction href="https://your-subdomain.recurly.com/v2/transactions/43adf00383b138ae7e56084dfe93eb9e" type="check">
+  <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+  <invoice href="https://your-subdomain.recurly.com/v2/invoices/1008"/>
+  <uuid>43adf00383b138ae7e56084dfe93eb9e</uuid>
+  <action>purchase</action>
+  <amount_in_cents type="integer">50</amount_in_cents>
+  <tax_in_cents type="integer">0</tax_in_cents>
+  <currency>USD</currency>
+  <status>success</status>
+  <payment_method>check</payment_method>
+  <reference nil="nil"/>
+  <source>transaction</source>
+  <recurring type="boolean">false</recurring>
+  <test type="boolean">true</test>
+  <voidable type="boolean">true</voidable>
+  <refundable type="boolean">true</refundable>
+  <ip_address nil="nil"/>
+  <gateway_type nil="nil"/>
+  <origin>api</origin>
+  <description>Paid with a check</description>
+  <message>Manually entered transaction</message>
+  <approval_code nil="nil"/>
+  <failure_type nil="nil"/>
+  <gateway_error_codes nil="nil"/>
+  <created_at type="datetime">2018-03-19T16:43:16Z</created_at>
+  <collected_at type="datetime">2018-03-19T16:33:15Z</collected_at>
+  <updated_at type="datetime">2018-03-19T16:43:16Z</updated_at>
+  <details>
+    <account>
+      <account_code>1</account_code>
+      <first_name>Verena</first_name>
+      <last_name>Example</last_name>
+      <company>New Company Name</company>
+      <email>verena@example.com</email>
+      <billing_info type="check">
+        <first_name>Verena</first_name>
+        <last_name>Example</last_name>
+        <address1 nil="nil"/>
+        <address2 nil="nil"/>
+        <city nil="nil"/>
+        <state nil="nil"/>
+        <zip nil="nil"/>
+        <country nil="nil"/>
+        <phone nil="nil"/>
+        <vat_number nil="nil"/>
+      </billing_info>
+    </account>
+  </details>
+</transaction>

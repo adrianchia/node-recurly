@@ -1,0 +1,108 @@
+<subscription href="">
+  <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+  <address>
+    <name>Verena Example</name>
+    <address1>123 Main St.</address1>
+    <address2>Suite 101</address2>
+    <city>Grand Rapids</city>
+    <state>MI</state>
+    <zip>49506</zip>
+    <country>US</country>
+    <phone>555-222-1212</phone>
+  </address>
+  <plan href="https://your-subdomain.recurly.com/v2/plans/gold">
+    <plan_code>gold</plan_code>
+    <name>Gold plan</name>
+  </plan>
+  <revenue_schedule_type>evenly</revenue_schedule_type>
+  <uuid>43adfe5232e396b129c2dd4602a0157d</uuid>
+  <state>active</state>
+  <unit_amount_in_cents type="integer">6000</unit_amount_in_cents>
+  <currency>USD</currency>
+  <quantity type="integer">1</quantity>
+  <activated_at type="datetime">2018-03-19T16:58:54Z</activated_at>
+  <canceled_at nil="nil"/>
+  <expires_at nil="nil"/>
+  <updated_at nil="nil"/>
+  <total_billing_cycles nil="nil"/>
+  <remaining_billing_cycles nil="nil"/>
+  <current_period_started_at type="datetime">2018-03-19T16:58:54Z</current_period_started_at>
+  <current_period_ends_at type="datetime">2018-04-19T16:58:54Z</current_period_ends_at>
+  <trial_started_at nil="nil"/>
+  <trial_ends_at nil="nil"/>
+  <terms_and_conditions nil="nil"/>
+  <customer_notes nil="nil"/>
+  <started_with_gift type="boolean">false</started_with_gift>
+  <converted_at nil="nil"/>
+  <imported_trial type="boolean">false</imported_trial>
+  <no_billing_info_reason/>
+  <cost_in_cents type="integer">6510</cost_in_cents>
+  <tax_in_cents type="integer">510</tax_in_cents>
+  <tax_type>usst</tax_type>
+  <tax_region>CA</tax_region>
+  <tax_rate type="float">0.085</tax_rate>
+  <po_number nil="nil"/>
+  <net_terms type="integer">0</net_terms>
+  <collection_method>manual</collection_method>
+  <subscription_add_ons type="array">
+  </subscription_add_ons>
+  <invoice_collection>
+    <charge_invoice href="">
+      <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+      <address>
+        <address1>123 Main St.</address1>
+        <address2 nil="nil"/>
+        <city>San Francisco</city>
+        <state>CA</state>
+        <zip>94105</zip>
+        <country>US</country>
+        <phone nil="nil"/>
+      </address>
+      <shipping_address>
+        <name>Verena Example</name>
+        <address1>123 Main St.</address1>
+        <address2>Suite 101</address2>
+        <city>Grand Rapids</city>
+        <state>MI</state>
+        <zip>49506</zip>
+        <country>US</country>
+        <phone>555-222-1212</phone>
+      </shipping_address>
+      <uuid>43adfe52c21cbb221557a24940bcd7e5</uuid>
+      <state>pending</state>
+      <invoice_number_prefix/>
+      <invoice_number nil="nil"/>
+      <vat_number nil="nil"/>
+      <tax_in_cents type="integer">0</tax_in_cents>
+      <total_in_cents type="integer">7000</total_in_cents>
+      <currency>USD</currency>
+      <created_at nil="nil"/>
+      <updated_at nil="nil"/>
+      <attempt_next_collection_at type="datetime">2018-03-20T16:58:54Z</attempt_next_collection_at>
+      <closed_at nil="nil"/>
+      <customer_notes nil="nil"/>
+      <recovery_reason nil="nil"/>
+      <subtotal_before_discount_in_cents type="integer">7000</subtotal_before_discount_in_cents>
+      <subtotal_in_cents type="integer">7000</subtotal_in_cents>
+      <discount_in_cents type="integer">0</discount_in_cents>
+      <due_on type="datetime">2018-03-20T16:58:54Z</due_on>
+      <balance_in_cents type="integer">7000</balance_in_cents>
+      <type>charge</type>
+      <origin>purchase</origin>
+      <refundable_total_in_cents type="integer">7000</refundable_total_in_cents>
+      <credit_payments type="array">
+      </credit_payments>
+      <net_terms type="integer">0</net_terms>
+      <collection_method>manual</collection_method>
+      <po_number nil="nil"/>
+      <terms_and_conditions nil="nil"/>
+      <line_items type="array">
+        <!-- Estimated charges for first invoice -->
+      </line_items>
+      <transactions type="array">
+      </transactions>
+    </charge_invoice>
+    <credit_invoices type="array">
+    </credit_invoices>
+  </invoice_collection>
+</subscription>

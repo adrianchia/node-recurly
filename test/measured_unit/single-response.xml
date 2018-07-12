@@ -1,0 +1,6 @@
+<measured_unit href="https://your-subdomain.recurly.com/v2/measured_units/12345678901234567890">
+  <id type="integer">12345678901234567890</id>
+  <name>Streaming Bandwidth</name>
+  <display_name>GB</display_name>
+  <description>Video steaming bandwidth measured in gigabytes</description>
+</measured_unit>

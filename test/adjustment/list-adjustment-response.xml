@@ -1,0 +1,27 @@
+<adjustments type="array">
+  <adjustment href="https://your-subdomain.recurly.com/v2/adjustments/43adb610c8709fb70e6297427eaef17a" type="credit">
+    <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+    <uuid>43adb610c8709fb70e6297427eaef17a</uuid>
+    <state>pending</state>
+    <description>Bonus for being a great customer</description>
+    <accounting_code nil="nil"/>
+    <product_code nil="nil"/>
+    <origin>credit</origin>
+    <unit_amount_in_cents type="integer">-2000</unit_amount_in_cents>
+    <quantity type="integer">1</quantity>
+    <discount_in_cents type="integer">0</discount_in_cents>
+    <tax_in_cents type="integer">0</tax_in_cents>
+    <total_in_cents type="integer">-2000</total_in_cents>
+    <currency>USD</currency>
+    <proration_rate nil="nil"/>
+    <taxable type="boolean">false</taxable>
+    <tax_exempt type="boolean">false</tax_exempt>
+    <tax_code nil="nil"/>
+    <start_date type="datetime">2018-03-19T15:39:59Z</start_date>
+    <end_date nil="nil"/>
+    <created_at type="datetime">2018-03-19T15:39:59Z</created_at>
+    <updated_at type="datetime">2018-03-19T15:39:59Z</updated_at>
+    <revenue_schedule_type>at_invoice</revenue_schedule_type>
+  </adjustment>
+  <!-- Continued... -->
+</adjustments>

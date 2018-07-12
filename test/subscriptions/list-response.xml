@@ -1,0 +1,42 @@
+<subscriptions type="array">
+  <subscription href="https://your-subdomain.recurly.com/v2/subscriptions/3c42a34d1442f840373a4b40de85a80a">
+    <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+    <redemptions href="https://your-subdomain.recurly.com/v2/subscriptions/3c42a34d1442f840373a4b40de85a80a/redemptions"/>
+    <plan href="https://your-subdomain.recurly.com/v2/plans/gold">
+      <plan_code>gold</plan_code>
+      <name>Gold plan</name>
+    </plan>
+    <revenue_schedule_type>evenly</revenue_schedule_type>
+    <uuid>3c42a34d1442f840373a4b40de85a80a</uuid>
+    <state>expired</state>
+    <unit_amount_in_cents type="integer">4500</unit_amount_in_cents>
+    <currency>EUR</currency>
+    <quantity type="integer">1</quantity>
+    <activated_at type="datetime">2017-03-15T21:20:36Z</activated_at>
+    <canceled_at type="datetime">2017-03-15T21:20:51Z</canceled_at>
+    <expires_at type="datetime">2017-03-15T21:20:51Z</expires_at>
+    <updated_at type="datetime">2017-03-15T21:20:51Z</updated_at>
+    <total_billing_cycles nil="nil"/>
+    <remaining_billing_cycles nil="nil"/>
+    <current_period_started_at type="datetime">2017-03-15T21:20:36Z</current_period_started_at>
+    <current_period_ends_at type="datetime">2017-04-15T21:20:36Z</current_period_ends_at>
+    <trial_started_at nil="nil"/>
+    <trial_ends_at nil="nil"/>
+    <terms_and_conditions nil="nil"/>
+    <customer_notes nil="nil"/>
+    <started_with_gift type="boolean">false</started_with_gift>
+    <converted_at nil="nil"/>
+    <imported_trial type="boolean">false</imported_trial>
+    <no_billing_info_reason/>
+    <tax_in_cents type="integer">383</tax_in_cents>
+    <tax_type>usst</tax_type>
+    <tax_region>CA</tax_region>
+    <tax_rate type="float">0.085</tax_rate>
+    <po_number nil="nil"/>
+    <net_terms type="integer">0</net_terms>
+    <collection_method>automatic</collection_method>
+    <subscription_add_ons type="array">
+    </subscription_add_ons>
+  </subscription>
+  <!-- Continued... -->
+</subscriptions>
