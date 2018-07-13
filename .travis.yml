@@ -3,3 +3,7 @@ node_js:
   - "node"
   - "9"
   - "8"
+script:
+  - npm test
+  - npm run coverage
+  - codecov -t $CODECOV_TOKEN
