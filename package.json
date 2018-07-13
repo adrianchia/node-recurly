@@ -1,6 +1,6 @@
 {
   "name": "@adrianchia/recurly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Unofficial Recurly client for the Node.js",
   "main": "index.js",
   "scripts": {
